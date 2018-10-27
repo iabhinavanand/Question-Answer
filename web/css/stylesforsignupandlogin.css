@@ -1,0 +1,89 @@
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-sm-12.col-md-8 .col-lg-6
+{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.card:not([class*=card-outline-]) {
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border-radius: 0px;
+    font-weight: 400;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.info-color {
+    background-color: #33b5e5!important;
+}
+.px-5 {
+    padding-left: 3rem!important;
+}
+.px-5 {
+    padding-right: 3rem!important;
+}
+.py-4 {
+    padding-bottom: 1.5rem!important;
+}
+.py-4 {
+    padding-top: 1.5rem!important;
+}
+
+input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0;
+    outline: 0;
+    height: 2.1rem;
+    width: 100%;
+    font-size: 1rem;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .3s;
+}
+select
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0;
+    outline: 0;
+    height: 2.1rem;
+    width: 100%;
+    box-sizing: content-box;
+    transition: all .3s;
+}
+select option selected
+{
+    font-size: 1rem;
+}
+.form-control
+{
+    display:block;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+}
+p
+{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+a
+{
+    text-decoration: none;
+}
